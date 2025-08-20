@@ -1,7 +1,49 @@
+body {
+    background-color: white;
+}
+
 h1 {
     text-align: center;
-};
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
 
 p {
     text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+button {
+    align-items: center;
+}
+
+img {
+    align-items: center;
+}
+
+.container {
+  height: 50px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
