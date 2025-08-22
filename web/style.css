@@ -18,12 +18,20 @@ h4 {
     text-align: center;
 }
 
+h5 {
+    text-align: center;
+}
+
+h6 { /* This is used as a spacer in pages */
+    color: whitesmoke;
+    background-color: whitesmoke;
+}
+
 p {
     text-align: center;
 }
 
 header {
-    
     background-color: whitesmoke;
     top: 0;
     position: sticky;
@@ -41,6 +49,10 @@ button {
 }
 
 img {
+    align-items: center;
+}
+
+form {
     align-items: center;
 }
 
