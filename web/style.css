@@ -56,6 +56,10 @@ form {
     align-items: center;
 }
 
+input {
+    align-items: center;
+}
+
 .container {
   height: 50px;
   position: relative;
