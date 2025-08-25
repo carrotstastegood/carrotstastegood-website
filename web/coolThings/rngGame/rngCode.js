@@ -3,12 +3,13 @@ let answer = Math.floor((Math.random() * 50) + 1);
 let turns = 5;
 let guess = ""
 
+alert("Welcome to my number guessing game! It is my first javascript project as I try to learn the language.");
+
 while (turns >= 1) {
     
     //console.log("Answer:", answer) // Debug
     console.log("You have", turns, "turns left.");
     
-    alert("Welcome to my number guessing game! It is my first javascript project as I try to learn the language.");
     let guess = prompt("Guess a number between 1 - 50:");
 
     if (guess < answer) { // Player's guess is too low
