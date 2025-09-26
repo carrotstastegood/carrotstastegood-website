@@ -14,29 +14,29 @@ while (turns >= 1) {
 
     if (guess < answer) { // Player's guess is too low
         console.log("Too low:", guess);
-        alert("Too low!", turns, "tries left.");
-        turns = turns - 1;
+        alert(`Too low! ${turns} attempts left.`);
+        turns -= 1;
 
     } else if (guess > answer) { // Player's guess is too high
-        console.log("Too high:", guess);
-        alert("Too high!", turns ,"tries left!");
-        turns = turns - 1;
+        console.log("Too high:" + guess);
+        alert(`Too high! ${turns} attempts left!`);
+        turns -= 1;
 
     } else if (guess == answer) { // Player guesses correct
         let attempts = 5 - turns;
         console.log("Correct:", guess)
-        console.log("You found the answer (", answer, ") in", attempts, "tries.");
-        alert("You found the answer (", answer, ") in", attempts, "tries.");
+        console.log(`You found the answer ${answer} in ${5 - turns} attempts.`);
+        alert(`You found the answer ${answer} in ${5 - turns} attempts.`);
         break;
 
     } else { // User provides garbage
-        console.log("Invalid input:", guess);
+        console.log("Invalid input:" + guess);
         alert("You must enter a number. No turns lost.");
     };
     
 };
 
 if (turns == 0) {
-    console.log("You ran out of turns, the answer was", answer);
+    console.log("You ran out of turns, the answer was" + answer);
     alert("You ran out of turns, the answer was" + answer + ".");
 };
