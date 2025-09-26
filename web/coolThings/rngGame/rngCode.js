@@ -38,5 +38,5 @@ while (turns >= 1) {
 
 if (turns == 0) {
     console.log("You ran out of turns, the answer was", answer);
-    alert("You ran out of turns, the answer was", answer);
+    alert("You ran out of turns, the answer was" + answer + ".");
 };
